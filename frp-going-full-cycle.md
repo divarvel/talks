@@ -60,10 +60,11 @@ Building client side applications with this concepts allows a very declarative
 and easy to understand interaction model. Cycle.js may seem too simple to be
 useful, but its power really lies in its simplicity.
 
-I'm giving this talk to Nantes JS in French, so I can give it both in French
+I've given this talk at NantesJS in French, so I can give it both in French
 and in English.
 
 
 # History
 
 NantesJS (2015)
+JsConfIs (2016 - pending)
