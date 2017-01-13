@@ -1,4 +1,4 @@
-# Functional patterns for scala beginners
+# Functional patterns for scala practitionners
 
 ## Short
 
@@ -17,18 +17,43 @@ presenting patterns originated in the functional world:
  - Segregation between logic and effects for easier testing
  - Property based testing
 
+## Short (FR)
+
+Scala, étant un language à la fois Fonctionnel et Orienté-Objet, permet un
+démarrage rapide, surtout pour les devs Java. Cependant, pour vraiment tirer
+parti du langage, il faut accepter son héritage fonctionnel.
+
+Dans cette session, je vais montrer comment rejoindre le côté fonctionnel de
+la Force en expliquant quelques patterns communs dans le monde fonctionnel :
+
+ - Le modèle d'évaluation par substitution et "tout est expression"
+ - Les types de données algébriques pour la modélisation
+ - Les Typeclasses pour l'extensibilité
+ - La gestion d'erreurs fonctionnelle avec Either et Validated
+ - La séparation entre logique et effets
+ - Les tests par propriétés
+
 ## Commentary
 
-This talk targets the scala beginners: the goal is to show them fp idioms in
-scala. People coming to scala from java spend some time stuck in an
-intermediate state where they still use java knowledge to design scala
-applications. The talk intends to reduce the time spent "writing java in
-scala" by showing attendees how to use scala idioms to great effect.
+This talk targets scala developpers coming from an imperative language: the
+goal is to show them fp idioms in scala. People coming to scala from java
+spend some time stuck in an intermediate state where they still use java
+knowledge to design scala applications. The talk intends to reduce the time
+spent "writing java in scala" by showing attendees how to use scala idioms to
+great effect.
 
 It will also help people recognize these patterns in widely used frameworks
 and libraries (eg typeclasses in play framework)
 
 The talk is targeted at beginners.
+
+## Commentary (FR)
+
+Ce talk est fait pour les gens qui se sont mis à scala mais qui viennent du
+monde java. Le but est de montrer quelques patterns courants mais pas toujours
+bien explicités. En gros ça permet de réduire la durée de la phase "j'écris du
+java en scala". Ça permet aussi de mieux comprendre comment fonctionnent
+certains gros frameworks du monde scala
 
 ## Talk history
 

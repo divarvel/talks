@@ -6,12 +6,6 @@ Software Engineer. CTO @ Clever Cloud.
 
 ## En, short
 
-Clément Delafargue is the CTO of Clever Cloud. A graduate from École
-Centrale de Nantes, he has been developing web projects since 2002. He can
-work both on frontend and backend, with various technologies (Javascript (on
-both frontend and backend), Ruby, Java, Scala). He is particularly interested
-in Functional Programming.
-
 Clément Delafargue is the CTO of Clever Cloud. A graduate from École Centrale
 de Nantes, he has been developing web projects since 2002. He enjoys working
 both on frontend and backend, as well as learning new languages and tech
@@ -26,26 +20,38 @@ scala, haskell, PHP, HTML/CSS, PL/SQL). He also teaches continuous integration
 and functional programming to Centrale Nantes students. He has created Nantes
 Functional Programming Group and gives talks about functional programming.
 
+---
+
+I'm the CTO of Clever Cloud, where I work on IT automation and continuous
+delivery. I regularly give talks and presentations on programming and
+architecture (especially FP, backend and frontend).
+
 
 ## Speaker credentials
 
-- Devoxx France
-- Devoxx UK
-- Devoxx Poland
-- Geecon
-- Geecon TDD
-- JavaDay Ukraine
-- BDX.io
-- Mix-IT
+- Devoxx France (http://devoxx.fr)
+- Devoxx UK (http://devoxx.co.uk)
+- Devoxx Poland (http://devoxx.pl)
+- Geecon (http://geecon.org)
+- Geecon TDD (http://tdd.geecon.org)
+- JavaDay Ukraine (http://javaday.org.ua)
+- BDX.io (http://bdx.io)
+- Mix-IT (http://mix-it.fr)
 - Nantes JUG
 - Breizh JUG
-- CodeMesh
-- LambdaCon
-- Scala.io
+- CodeMesh (http://codemesh.io)
+- LambdaCon (http://www.lambdacon.org)
+- Scala.io (http://scala.io)
 - Paris Scala User Group
-- Softshake
-- flatMap.no
+- Softshake (http://soft-shake.ch)
+- flatMap.no (http://flatmap.no)
 
 <https://www.clever-cloud.com/assets/img/logos/logo-bottle.png>
 
 <http://penazen-consulting.com/images/clement_delafargue.jpg>
+
+I'd say a file storage product based on content-adressable storage system
+(hosted on Riak). Everything is streamed, from the frontend to the storage, so
+it is able to handle huge files without any issues. All the metadata is stored
+in an immutable graph, with a log of all the transformations allowing to
+quickly compute diffs between two states of the system.

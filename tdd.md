@@ -9,7 +9,7 @@ long way, with more confidence and with less hassle than with tests.
 In this talk, I will show a new vision of types, explore the fundamental
 differences between specifying with types and specifying with tests. I'll talk
 about how types allow us to prove properties about our program and how
-genericity is a tremendously powerful tool for specification. He'll show means
+genericity is a tremendously powerful tool for specification. I'll show means
 of reasoning based on types and assess specifically what it provides.  Lastly,
 I will show how to complement Type-Directed Development with Test-Driven
 Development to specify with tests what's left after laying out the types.
@@ -57,7 +57,7 @@ programmers and OO-programmers.
 
 Scala.io (2014)
 CodeMesh.io (2014)
-TDD Geecon (2014)
-Lambda Con (2015)
+TDD Geecon (2014) https://vimeo.com/120577310
+Lambda Con (2015) https://joind.in/event/lambdacon---funtastic-code-and-people/tdd-as-in-type-directed-development
 Java Day Ukraine (2015)
 Softshake (2015)

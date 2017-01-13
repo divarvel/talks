@@ -17,6 +17,25 @@ By the end of the presentation you will be able to:
  - split your services with message queues
  - handle persistent connections like websocket at scale
 
+# Short FR
+
+Migrer une application legacy vers le cloud, ça n'est pas toujours facile. La
+route vers 12factor est semée d'embûche mais est extrêmement rentable, même si
+vous n'allez pas jusqu'au déploiement continue dans le cloud
+
+Dans ce talk, je vais montrer pourquoi la "Cloud-Readiness™" et la scalabilité
+dérivent directement d'une bonne conception et comment les visions "modernes",
+comme par exemples les microservices se marient très bien avec des archis
+"cloud-friendly".
+
+À la fin de la présentation, vous aurez vu comment :
+
+ - concevoir la gestion de l'état dans vos applis web pour faciliter la scalabilité
+ - gérer du stockage de fichier à l'échelle avec les APIs de stockage de fichier
+ - découpler vos services avec les message brokers
+ - gérer les connexions persistentes (par exemple les websockets) dans un
+   contexte distribué
+
 # Commentary EN
 
 
@@ -28,6 +47,13 @@ good design.
 HTTP is stateless by its very nature, so a stateful HTTP service is the result
 of hidden dependencies to state. Moving to a cloud setup forces you to expose
 and manage these dependencies, but that's something you should do anyway.
+
+# Commentary FR
+
+J'ai aidé de nombreux clients à passer d'une infra legacy à un déploiement
+cloud. Ce talk reprend les conseils et les recommandations que je donne
+régulièrement, tout en soulignant que ce ne sont pas des restrictions
+arbitraires mais des bons conseils au global.
 
 # History
 
